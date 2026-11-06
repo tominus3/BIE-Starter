@@ -85,8 +85,7 @@ dotnet test tests/BIE.UnitTests
 
 Begründe: Warum ist 30 aussagekräftiger als nur 10?
 
-Antwort: __________________________________________________
-Antwort: __________________________________________________
+Antwort: 30 ändert sich am schnellsten wenn man eine Änderung am Code macht, es ist die Grenze.
 
 ## 3  Integrationstest ergänzen
 
