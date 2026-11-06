@@ -14,7 +14,7 @@ public class LearnerE2ETests : BrowserTestBase
 
         // Act
         Driver.FindElement(By.Id("submit")).Click();
-        Wait.Until(d => !string.IsNullOrEmpty(d.FindElement(By.Id("result")).Text));
+        Wait.Until(d => d.FindElement(By.Id("result")).Displayed);
 
         // Assert
         StringAssert.Contains(Decision("approved").Text, "GENEHMIGT");
